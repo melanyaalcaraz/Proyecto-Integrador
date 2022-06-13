@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../CSS.css">
+        <title>Taylor Swift</title>  
+        <script type="text/JavaScript" src="../funciones.js"></script>
+     </head>
+     
+     <header>
+        <div id="Menu"> 
+            <a href="../paginas/biblografia.html"> 
+                Más de Taylor Swift
+            </a> </div>
+
+         <div id="Menu"> 
+            <a href="../paginas/discografia.html"> 
+            Discografia
+            </a></div>
+
+        <a href="../paginas/formulario.html" >
+        <div id="Menu"> Deja tu comentario! </div> </a>
+
+         <a href="https://store.taylorswift.com/?utm_campaign=nav&utm_medium=referral&utm_source=taylorswift.com" target="_blank">
+         <div id="Menu"> Merch </div> </a>
+
+         <div id="nmbPrincipal">
+            <a href="../index.html">  
+             Taylor Swift
+            </a></div>
+         <div id="imagenes">
+            <a href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02" target="_blank">
+                <img src="../imagenes/spotifylogo.png" height="50" > 
+            </a>
+            <a href="https://www.youtube.com/c/TaylorSwift/videos" target="_blank">
+                <img src="../imagenes/ytlogo.png" height="50"> 
+            </a>  
+            <a href="https://www.tiktok.com/@taylorswift?lang=es" target="_blank">
+                <img src="../imagenes/tiktoklogo.png" height="50"> 
+            </a>
+            <a href="https://www.instagram.com/taylorswift/" target="_blank">
+                <img src="../imagenes/iglogo.png" height="50"> 
+            </a>
+            <a href="https://es-la.facebook.com/TaylorSwift" target="_blank">
+                <img src="../imagenes/facelogo1.png" height="50"> 
+            </a>
+            <a href="https://twitter.com/taylorswift13" target="_blank">
+                <img src="../imagenes/twlogo.png" height="50"> 
+            </a>
+        </div>
+    </header>
+<body>
+ 
+<div class="div-form">
+
+    <h1>Deja tu comentario!</h1>
+
+<form name="formulario" method="get" action="#" enctype="text/plain">
+    
+    <h2> Ingrese los siguentes datos: </h2><br>
+    
+        Ingrese su nombre:
+        <label for="nombre"></label>
+        <input type="text" name="nombre" size="20" > <br> <br>
+        </label>
+        Ingrese su apellido:
+        <label for="apellido"></label>
+        <input type="text" name="apellido" size="20" > <br> <br>
+        </label>
+        Ingrese su correo: 
+        <label for="correo"></label>
+        <input type="email" name="correo" size="20"  required > <br> 
+        </label>
+   
+   <label for="favorito"><h3> Ingrese su album favorito: </h3>  </label> 
+   
+   <label for="folklore">
+    <input type=checkbox name="favorito" value="folklore">
+    Folklore </label>
+    <br> 
+    <input type=checkbox name="favorito" value="red(tv)">
+    <label for="red">Red (Taylor´s Version) </label> <br>
+    <input type=checkbox name="favorito" value="fearless(tv)">
+    <label for="fearless">Fearless (Taylor´s Version)</label><br> 
+    <input type=checkbox name="favorito" value="evermore">
+    <label for="evermore">Evermore</label><br> 
+    <input type=checkbox name="favorito" value="lover">
+    <label for="lover">Lover</label><br> 
+    <input type=checkbox name="favorito" value="taylorswift">
+    <label for="taylorswift">Taylor Swift</label><br> 
+    <input type=checkbox name="favorito" value="reputation">
+    <label for="reputation">Reputation</label><br> 
+    
+    
+    <h3>Deja tu comentario: </h3> 
+   <textarea name="comentario"  rows="5" cols="50""></textarea> <br>
+
+    <input type="file"  name="archivo" title="Seleccione un archivo" 
+    accept=".doc,.docx, image/*, video/*" > <br>
+    <input type="submit" onclick=" return  enviar()" >
+</form>
+</div>
+<footer>
+    © 2022 Alcaraz Melany Antonella
+</footer>
+</body>
+
+</html>

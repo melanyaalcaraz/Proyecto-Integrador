@@ -1,0 +1,308 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+   
+    
+}
+/* ---------------------------------------Header-------------------------------------------------- */
+header{
+    border: 5px solid black;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    text-align: center;
+    color: #d4dbd2;
+   }
+ #bDiscos, #tsbiblo{
+    background-color: transparent;
+    color: aliceblue;
+    font-family: 'Lucida Grande';
+    font-size: large;
+}
+header, a:visited{
+    color:aliceblue;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+header, a:link{
+    color:aliceblue;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+  #imagenes{
+      margin-top: 10px;
+      justify-content: space-between;
+  }
+  /* ---------------------------------------Footer-------------------------------------------------- */
+ footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: center;
+    color: #d4dbd2;
+ }
+#Menu{
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+    #Menu:any-link{
+        color: #d4dbd2;
+    }
+    #nmbPrincipal{
+        border: 5px solid black;
+        margin: 10px;
+        padding: 10px;
+        background-color: black;
+        width: 330px;
+        text-align: center;
+        font-size:larger;
+        font-family:  'Lucida Grande';
+    }
+    /* ---------------------------------------Imagen principal-------------------------------------------------- */
+.principal{
+      background-image: url("./imagenes/fondodiv1.jpg"); 
+     background-repeat:no-repeat;
+     background-size:cover; 
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width:100%;
+     height:630px;
+     
+} 
+     #phijo{
+        background-image: url("./imagenes/albumcover1.jpg")  ; 
+        background-size:cover;
+        width:300px;
+        height:300px;
+        float: center;
+        margin-top: 90px;
+        margin-left: 100px;
+        padding: 40px;
+        
+    } 
+    #phijo:hover{
+        background-image: url("./imagenes/albumcontracover.jpg")  ; 
+    }
+    #phijo2{
+        width: 300px;
+        height: 300px;
+        float: right;
+        margin-top: 180px;
+        margin-left: 350px;
+        font-size: larger;
+        font-family:  'Lucida Grande';
+        height: fit-content;
+        
+        background-color: transparent;
+     } 
+     /* ----------------------------------------Poster-------------------------------------------------- */
+     .film{
+        background-color: black; 
+        
+        /*  color: aliceblue; */
+         color: black;
+         width: 100%;
+         height:fit-content;
+         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+     }
+     #poster{
+         margin-left: 140px;
+         margin-top: 50px;
+     }
+     #text{
+        border: 5px pink dotted;
+        margin-left: 150px; 
+        margin-top: 100px;
+        font-size: larger;
+        font-family:  'Lucida Grande';
+        height: fit-content;
+        padding: 15px;
+        background-color: palevioletred;
+     }
+    
+     #carolina{
+        width: 100%;
+        height: 520px;
+        color:  black;
+        font-size: xx-large;
+        background-color:coral;
+        text-align: center;
+        padding-top: 25px;
+        text-decoration:wavy;
+     }
+     #c-texto{
+        color: crimson;
+     }
+     
+
+ 
+    /* ----------------------------------------Formulario-------------------------------------------------- */
+.div-form{
+    margin: 0px;
+    background-color: black;
+    width:100%;
+    height:700px;
+    color: aliceblue;
+    
+}
+    form{
+        background-color: palevioletred;
+        width: 500px;
+        padding: 20px;
+        border-radius: 15px;
+        margin: auto;
+        color: black;
+    }
+    /* label{
+    width: 20px;
+    display: inline-block;
+    } */
+     /* ----------------------------------------Albumes(discografia)-------------------------------------------------- */  
+.albumes{
+    background-color: black;
+    color: white;
+    width:100%;
+    height:555px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+    #a-1{
+      margin-top: 60px;
+      margin-left: 30px;
+    }
+    #al2{
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    #anterior{
+        background-color:black ;
+        color:#d4dbd2;
+        margin-left: 0px;
+    }
+    #siguiente{
+        background-color:black ;
+        color:#d4dbd2;
+        margin-left:145px; 
+      
+    }
+.cuerpo{
+    background-color: black;
+    color: aliceblue;
+    width: 100%; 
+    height:fit-content; 
+    font-size: large;
+    
+
+}
+
+.estadisticas{
+    width: 100%;
+  }
+
+    #albumes1{
+        margin-left:40%;
+        background-color: pink;
+        color: black;
+        text-decoration: bold;
+        width: 220px;
+    
+    }
+    #albumes2{
+        margin-left:40%;
+        background-color: violet;
+        color: black;
+        text-decoration: bold;
+        width: 220px;
+    
+    }
+    #albumes3{
+        margin-left:40%;
+        background-color: lightblue;
+        color: black;
+        text-decoration: bold;
+        width: 220px;
+    
+    }
+    #albumes4{
+        margin-left:40%;
+        background-color: palegreen;
+        color: black;
+        text-decoration: bold;
+        width: 220px;
+    
+    }
+    #albumes5{
+        margin-left:40%;
+        background-color: peachpuff;
+        color: black;
+        text-decoration: bold;
+        width: 220px;
+    
+    }
+    #albumes6{
+        margin-left:40%;
+        background-color: lightsalmon;
+        color: black;
+        text-decoration: bold;
+        width: 220px;
+    
+    }
+    #albumes7{
+        margin-left:40%;
+        background-color: lightskyblue;
+        color: black;
+        text-decoration: bold;
+        width: 220px;
+    }
+    #albumes8{
+        margin-left:40%;
+        background-color: lightcyan;
+        color: black;
+        text-decoration: bold;
+        width: 220px;
+    
+    }
+    #albumes9{
+        margin-left:40%;
+        background-color: lightgray;
+        color: black;
+        text-decoration: bold;
+        width: 220px;
+    
+    }
+     /* ----------------------------------------Imagenes(biblogafia)-------------------------------------------------- */  
+     .imagenesTS{
+        background-color: black;
+        height: 750px;
+        width: 50%;
+        margin-left:350px; 
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+        
+    }
+    .imagenesTS img{
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        object-fit: cover;
+        position: sticky;
+        top: 0;
+    }
+      
+
+
+   
